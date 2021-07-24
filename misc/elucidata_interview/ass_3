@@ -1,0 +1,30 @@
+You are given with a txt file. This file captures the output of a mass spec machine after an experiment run. In a typical experiment, multiple solutions are inserted (sequentially) into a mass spec machine. Each solution contains a bunch of chemicals compounds. The machine captures signal of each compound in each solution. 
+
+There are 5 columns in this file, each explained below:
+1. Metabolite Name: This column contains the name of the metabolite.
+2. Fragment Name: During the experiment each metabolite is broken into fragments, so for the same metabolite there can be multiple fragments.
+3. Sample: While doing the experiment, samples are passed through the machines. Each sample contains several metabolites, all of which are separated by the mass spec machine and their intensity measured.
+4. Intensity: Intensity is the measured value. A value of intensity can be uniquely identified by Fragment Name and Sample combined i.e. if given a sample 119 and fragment Citrate 191/111, we will one and only one intensity value.
+5 Cohort: This column contains some properties which are common to different samples. For example Cohort with value "A. G9 13C-Gln 0min" can have list of samples associated with it [S119, S135, S151, S167, S183, S199] which are technical replicates. 
+
+You have to write a flask/Django server where a user uploads this file. After uploading the file do the following processing on the file.
+Filter the data for values of Cohort containing the word "std". On the filtered data, add intensities for all fragments corresponding to one metabolite. This is done for each sample.
+
+So the output format should be something like this:
+Sample Cohort Metabolite Intensity
+S1     CohA   A          3290
+S2     CohA   A          4398 
+S3     CohB   A          5232
+S4     CohB   A          8020
+Return this table for all metabolites.
+
+**(Bonus Analysis)**
+Convert the format of the table such that 
+Cohort   Intensity1  I2
+CohA   3290 4398
+CohB   5232 8020
+
+The above are just sample formats, values and names will be different for given files. Use pandas for the processing and minimal for loop.
+The analyzed file should be downloaded as a response to the upload API. 
+
+You can use a very minimalistic frontend for this problem.

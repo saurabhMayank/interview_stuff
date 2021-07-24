@@ -1,0 +1,9 @@
+You are given a xlsx file. This file captures the output of a mass spec machine after an experiment run. In a typical experiment, multiple samples are inserted (sequentially) into a mass spec machine. Each sample contains a bunch of metabolites (chemicals compounds). The machine captures signal of each metabolite in each sample.
+
+The first column in excel file corresponds to m/z ratio of the metabolite. The second column corresponds to the retention time of the metabolite. The third column corresponds to the name of this metabolite. Columns after 3rd column (from Column D) contains signal values for various metabolites..
+For example, cell D1 captures signal value for metabolite "001_C24:0 PC" in "2788e_WHI_BAA_LIP_PrefB01" sample.
+Cell E1 captures signal for the same metabolite ("001_C24:0 PC") in "2788f_WHI_BAA_LIP_PrefA01" sample.
+
+Your first task to write a flask/Django server where a user uploads this file.
+After this, you have to calculate the arithmetic mean value of different metabolites in a sample and report the mean value at the bottom in the same column. For example, after calculating the mean of all the metabolites for 2788f_WHI_BAA_LIP_PrefA01 sample, you have to capture the mean value at the end of this column. For iterating over different solutions, you should not use for loop; but try to implement "apply" function of pandas library. Once this operation has been performed, that file should be downloaded at frontend. 
+You can use a very minimalistic frontend for this problem.

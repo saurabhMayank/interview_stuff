@@ -1,0 +1,283 @@
+{
+    "graph": {
+        "@label": "XWR200_NT_NITD_diff_exp_GAM.re.mf=-1.5.rf=-6.ams=-2.4",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:cy": "http://www.cytoscape.org",
+        "@xmlns": "http://www.cs.rpi.edu/XGMML",
+        "att": [
+            {
+                "@name": "documentVersion",
+                "@value": "1.1"
+            },
+            {
+                "@name": "networkMetadata",
+                "rdf:RDF": {
+                    "rdf:Description": {
+                        "@rdf:about": "http://www.cytoscape.org/",
+                        "dc:type": "N/A",
+                        "dc:description": "N/A",
+                        "dc:identifier": "N/A",
+                        "dc:date": "2018-10-24 00:34:37",
+                        "dc:title": "XWR200_NT_NITD_diff_exp_GAM.re.mf=-1.5.rf=-6.ams=-2.4",
+                        "dc:format": "Cytoscape-XGMML"
+                    }
+                }
+            }
+        ],
+        "node": [
+            {
+                "@label": "C00021",
+                "@id": "1",
+                "att": [
+                    {
+                        "@type": "string",
+                        "@name": "name",
+                        "@value": "C00021"
+                    },
+                    {
+                        "@type": "real",
+                        "@name": "pval",
+                        "@value": "0.48115"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "origin",
+                        "@value": "C00021"
+                    },
+                    {
+                        "@type": "real",
+                        "@name": "log2FC",
+                        "@value": "0.11037"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "label",
+                        "@value": "S-Adenosyl-L-homocysteine"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "formula",
+                        "@value": "C14H20N6O5S"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "pathway",
+                        "@value": "map00270+map01100+map01230"
+                    },
+                    {
+                        "@type": "real",
+                        "@name": "logPval",
+                        "@value": "-0.731576207179727"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "nodeType",
+                        "@value": "met"
+                    }
+                ]
+            },
+            {
+                "@label": "C00022",
+                "@id": "2",
+                "att": [
+                    {
+                        "@type": "string",
+                        "@name": "name",
+                        "@value": "C00022"
+                    },
+                    {
+                        "@type": "real",
+                        "@name": "pval",
+                        "@value": "9.7321e-05"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "origin",
+                        "@value": "C00022"
+                    },
+                    {
+                        "@type": "real",
+                        "@name": "log2FC",
+                        "@value": "2.4515"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "label",
+                        "@value": "Pyruvate"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "formula",
+                        "@value": "C3H4O3"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "pathway",
+                        "@value": "map00010+map00020+map00030+map00040+map00053+map00250+map00260+map00261+map00270+map00290+map00330+map00350+map00360+map00362+map00430+map00440+map00473+map00620+map00621+map00622+map00630+map00650+map00660+map00680+map00710+map00720+map00730+map00760+map00770+map00900+map01060+map01061+map01062+map01063+map01064+map01065+map01066+map01070+map01100+map01110+map01120+map01130+map01200+map01210+map01220+map01230+map01502+map02060+map04066+map04152+map04911+map04922+map04930+map04931+map05230"
+                    },
+                    {
+                        "@type": "real",
+                        "@name": "logPval",
+                        "@value": "-9.23749576472155"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "nodeType",
+                        "@value": "met"
+                    }
+                ]
+            },
+            {
+                "@label": "C00025",
+                "@id": "3",
+                "att": [
+                    {
+                        "@type": "string",
+                        "@name": "name",
+                        "@value": "C00025"
+                    },
+                    {
+                        "@type": "real",
+                        "@name": "pval",
+                        "@value": "4.6479e-06"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "origin",
+                        "@value": "C00025"
+                    },
+                    {
+                        "@type": "real",
+                        "@name": "log2FC",
+                        "@value": "0.98625"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "label",
+                        "@value": "L-Glutamate"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "formula",
+                        "@value": "C5H9NO4"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "pathway",
+                        "@value": "map00220+map00250+map00330+map00332+map00340+map00430+map00471+map00480+map00524+map00630+map00650+map00660+map00860+map00910+map00970+map01060+map01064+map01100+map01110+map01120+map01130+map01200+map01210+map01230+map02010+map02020+map04068+map04072+map04080+map04540+map04713+map04720+map04721+map04723+map04724+map04727+map04730+map04742+map04964+map04974+map05014+map05016+map05030+map05031+map05033+map05034+map05230"
+                    },
+                    {
+                        "@type": "real",
+                        "@name": "logPval",
+                        "@value": "-12.2790950532761"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "nodeType",
+                        "@value": "met"
+                    }
+                ]
+            }
+        ],
+        "edge": [
+            {
+                "@label": "C00021 (pp) C0022",
+                "@source": "1",
+                "@target": "2",
+                "att": [
+                    {
+                        "@type": "string",
+                        "@name": "rptype",
+                        "@value": "main"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "rxn",
+                        "@value": "R00192"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "rpair",
+                        "@value": "RP04107"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "label",
+                        "@value": ""
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "pathway",
+                        "@value": "rn00270+rn01100"
+                    }
+                ]
+            },
+            {
+                "@label": "C00021 (pp) C00025",
+                "@source": "1",
+                "@target": "3",
+                "att": [
+                    {
+                        "@type": "string",
+                        "@name": "rptype",
+                        "@value": "main"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "rxn",
+                        "@value": "R00192"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "rpair",
+                        "@value": "RP04112"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "label",
+                        "@value": ""
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "pathway",
+                        "@value": "rn00270+rn01100"
+                    }
+                ]
+            },
+            {
+                "@label": "C00022 (pp) C00025",
+                "@source": "2",
+                "@target": "3",
+                "att": [
+                    {
+                        "@type": "string",
+                        "@name": "rptype",
+                        "@value": "main"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "rxn",
+                        "@value": "R00585"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "rpair",
+                        "@value": "RP00021"
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "label",
+                        "@value": ""
+                    },
+                    {
+                        "@type": "string",
+                        "@name": "pathway",
+                        "@value": "rn00260+rn01100"
+                    }
+                ]
+            }
+        ]
+    }
+}

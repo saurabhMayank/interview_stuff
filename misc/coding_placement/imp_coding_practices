@@ -1,0 +1,11 @@
+Coding Practices to be followed
+1)Code Everyday
+2)Nested structures should not be more than 3 layers
+3)A function should be within a screen size
+4)Learn something for 30mins everyday
+5)Learning is very imp becoz that makes up the resume strong
+6)Learn Git concepts properly
+7)Follow this link -> https://engineering.videoblocks.com/these-four-clean-code-tips-will-dramatically-improve-your-engineering-teams-productivity-b5bd121dd150
+8)Every function should be 7to 8 lines and should only have single responsibility.
+9)Write all the steps in order to complete a task and each task can be sub function.
+10)The function should only do the work that its name suggests.It should not do anything else it is a side effect of that function and it will create problems in its usage and testing

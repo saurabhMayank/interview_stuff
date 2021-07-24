@@ -1,0 +1,9 @@
+You are given a JSON file like above which contains a family structure. Each object contains three keys: name, age, and children. The value for name and age are of type string, and value for children is a JSON Array. Each object is this JSON Array will have three fields: name, age, and children. Hence, it's a nested JSON Object.
+
+You have to write python which will perform the following task.
+
+1. Validate all given families in JSON file. That every child should have age and parent or he should be the highest ancestor. Also, child age should not be greater than parent age.
+
+2. The input to the program would be details about a person in form of three fields: name, age, and parent. Using the parent field, you have to figure out where should this person be placed in the family tree. And then you should update the JSON file accordingly to accommodate the new person. If you don't find an appropriate place for the input, you should create another JSON object and start another family tree. 
+
+3. Find the least common ancestor for the two given input. If the input does not belong to same family return that both do not belong to the same family and also return the highest ancestor of both families.
