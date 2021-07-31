@@ -11,17 +11,15 @@ using namespace std;
          struct node *next;
       };
    
-   void start(struct node **head_ref,int data1)
-      {
+   void start(struct node **head_ref,int data1){
 
           struct node* new_node = (struct node*)malloc (sizeof(struct node));
           new_node->data = data1;
           new_node->next = *(head_ref);
           (*head_ref)=new_node;
-      }
+  }
 
-      void ends(struct node **head_ref,int data1)
-        {
+  void ends(struct node **head_ref,int data1){
           struct node* new_node = (struct node*)malloc (sizeof(struct node));
           struct node* t;
             t=*(head_ref);
