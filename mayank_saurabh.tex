@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{single-page-resume}
+\usepackage[utf8]{inputenc}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Mayank}{Saurabh}
+{ \urlstyle{same}
+\href{mailto:varagrawal@gmail.com}{memayank9@gmail.com} | 
+9479327707
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Indian Institute of \\
+Information Technology}
+
+\descript{B.Tech in Computer Science \& Engineering}
+\location{May 2019 | Jabalpur, M.P.}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/saurabhMayank}{\custombold{mayanksaurabh}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/mayank95/}{\custombold{mayanksaurabh}} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Relevant Coursework}
+\subsection{Undergraduate}
+Data Structures \\
+Algorithms \\
+Operating System \\
+Networks \\
+Software Engineering \\
+DBMS \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Advanced:}
+\textbullet{} C$\backslash$C++ \textbullet{} Python \textbullet{} Terraform \\
+\location{Proficient:}
+\textbullet{} Groovy \textbullet{} SQL \\
+\location{Familiar:}
+\textbullet{} Javascript \textbullet{} Java \\ \textbullet{}
+ HTML$\backslash$CSS
+ 
+\subsection{DevOps \& Cloud}
+\textbullet{} AWS Cloud \textbullet{} Docker \textbullet{} CI/CD 
+
+\subsection{Tools \& Utilities}
+\textbullet{} Git \textbullet{} Visual Studio \textbullet{} Linux
+\sectionsep
+
+\section{Extra}
+\textbullet{} Co-Coordinator & Student Guide,
+Counselling Services \\
+\textbullet{} Volunteer, NSS, IIITDM-JBP \\
+\textbullet{} 2nd place, SINM QUIZ, IIM INDORE
+Region (2017) \\
+\textbullet{} 2nd place, Hindi Pakhwada Poetry
+Competition \\
+\textbullet{} Member, IIITDM Literary and Quizzing
+Society
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Elucidata Corp.}
+\descript{| Software Engineer }
+\location{June 2019 – Present | New Delhi}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Target Discovery Dashboard 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+   \item Generate insights from Transcriptional Factors and collaborate dashboard
+   \item Enables Scientists to collaborate cohesively, better than Confluence Docs
+    \item Designed End to End  \custombold{Serverless} Architecture on AWS
+    \item Developed local API testing using Serverless framework
+    \item Worked on programming and deploying \custombold{infrastructure} using Terraform
+    \item Worked on design and development of  \custombold{API and storage layer}
+\end{tightemize}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+EU-Polly Deployment
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+   \item Worked on end to end deployment of Polly Platform in new AWS account
+   \item Automated deployment of infrastructure \custombold{reducing} time to deploy from 1.5 weeks to 2 days
+    \item Improved existing CI/CD pipeline to speed up code deployment of Frontend and Backend
+    \item Worked on the documentation of the whole process
+    \item Effective time reduction of deployment of end to end Platfrom from \custombold{3 weeks to 5 days}
+\end{tightemize}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+CDEX Platform for Single Cell Analysis
+\begin{tightemize}
+    \item Discovery insight generation platform for Proteomics data
+    \item Worked on developing \custombold{Software Development Lifecycle} for effective collaboration
+    \item Worked on feature development of Single Cell RNA module using Python
+    \item Worked on programming and deploying infrastructure using Terraform on AWS
+    \item Worked on writing unit tests in the Single Cell RNA module
+  fore converting into successful yearly subscription
+\end{tightemize}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Inventory Log Management Software GDBxT
+\begin{tightemize}
+\item Developed DNA to Protein workflow modules for Pfizer using Groovy on Grails(2.5.5), OracleDB. 
+\item Developed \custombold{model} integration and functional tests in Geb and Spock, which were used as an example for writing tests across GDBxT Development team in Pfizer
+\item Team received \custombold{appreciation} from Pfizer for completing features and tests in the module 3 months before production deployment deadline.
+  \item Led to recurring \custombold{renewal} of project, which started as a pilot be
+\end{tightemize}
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Flux Analysis Dashboards
+\begin{tightemize}
+\item Developed and optimized Analysis dashboards using Angular, SCSS, Flex, JavaScript ES6
+\item Improved performance of Viz dashboard by reducing loading time from 4 mins to 30 sec
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Elucidata Corp.}
+\descript{| Software Engineer Intern }
+\location{May 2018 – Nov 2018 | New Delhi}
+\begin{tightemize}
+    \item Developed an COMBI-T Map in Intomix using Angular, JS and WebGL \end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Accomplishments} 
+\begin{tabular}{rll}
+2018	    &7th  & Smart India Hackathon(Bengaluru Centre)\\
+2017	     & Finalist & Smart India Hackathon(Manipal Centre)
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}  
+\documentclass[]{article}
